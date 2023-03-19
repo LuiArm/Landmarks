@@ -77,9 +77,9 @@
 				F646C8C529B7BC2A00DCD82B /* Model */,
 				F646C8C429B7BBFD00DCD82B /* VViews */,
 				F646C8AE29B5646F00DCD82B /* LandmarksApp.swift */,
+				F66AABEE29C76F0800BCB93E /* BadgeBackground.swift */,
 				F646C8B229B5646F00DCD82B /* Assets.xcassets */,
 				F646C8B429B5646F00DCD82B /* Preview Content */,
-				F66AABEE29C76F0800BCB93E /* BadgeBackground.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
