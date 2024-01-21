@@ -17,6 +17,7 @@ struct Landmark: Hashable,Codable, Identifiable {
     var description: String
     var isFavorite: Bool
     
+    //private because users of the Landmarks structure care only about the image itself.
     private var imageName: String
     var image: Image {
         Image(imageName)
