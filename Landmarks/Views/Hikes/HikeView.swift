@@ -55,12 +55,12 @@ struct HikeView: View {
     }
 }
 
-struct HikeView_Previews: PreviewProvider {
-    static var previews: some View {
-        VStack {
-            HikeView(hike: ModelData().hikes[0])
-                .padding()
-            Spacer()
-        }
-    }
-}
+//struct HikeView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        VStack {
+//            HikeView(hike: ModelData().hikes[0])
+//                .padding()
+//            Spacer()
+//        }
+//    }
+//}

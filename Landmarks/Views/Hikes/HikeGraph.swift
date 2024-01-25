@@ -59,17 +59,17 @@ func magnitude(of range: Range<Double>) -> Double {
     range.upperBound - range.lowerBound
 }
 
-struct HikeGraph_Previews: PreviewProvider {
-    static var hike = ModelData().hikes[0]
-
-    static var previews: some View {
-        Group {
-            HikeGraph(hike: hike, path: \.elevation)
-                .frame(height: 200)
-            HikeGraph(hike: hike, path: \.heartRate)
-                .frame(height: 200)
-            HikeGraph(hike: hike, path: \.pace)
-                .frame(height: 200)
-        }
-    }
-}
+//struct HikeGraph_Previews: PreviewProvider {
+//    static var hike = ModelData().hikes[0]
+//
+//    static var previews: some View {
+//        Group {
+//            HikeGraph(hike: hike, path: \.elevation)
+//                .frame(height: 200)
+//            HikeGraph(hike: hike, path: \.heartRate)
+//                .frame(height: 200)
+//            HikeGraph(hike: hike, path: \.pace)
+//                .frame(height: 200)
+//        }
+//    }
+//}
